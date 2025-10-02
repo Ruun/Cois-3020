@@ -1,6 +1,6 @@
 # COIS 3020 - Assignment 1: Graph Shortest Path
 
-**Author:** Ruan (@Ruun)  and  Hatim  
+**Author:** Ruan & Hatim    
 **Repository:** [Cois-3020](https://github.com/Ruun/Cois-3020)  
 **Date:** 2025-10-02
 

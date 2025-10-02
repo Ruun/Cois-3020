@@ -29,3 +29,6 @@ packages/
 *.db-wal
 *.sqlite
 *.pdb
+
+# OS generated files
+.DS_Store

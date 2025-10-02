@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    "Location A",
+    "Location B",
+    "Location C",
+    "Location D",
+    "Location E",
+    "Location F",
+    "Location G",
+    "Location H",
+    "Location I",
+    "Location J",
+    "Location K",
+    "Location L"
+  ],
+  "edges": [
+    {
+      "source": "Location A",
+      "target": "Location B",
+      "time_min": 13
+    },
+    {
+      "source": "Location B",
+      "target": "Location C",
+      "time_min": 7
+    },
+    {
+      "source": "Location C",
+      "target": "Location D",
+      "time_min": 15
+    },
+    {
+      "source": "Location D",
+      "target": "Location E",
+      "time_min": 4
+    },
+    {
+      "source": "Location E",
+      "target": "Location F",
+      "time_min": 5
+    },
+    {
+      "source": "Location F",
+      "target": "Location G",
+      "time_min": 20
+    },
+    {
+      "source": "Location G",
+      "target": "Location H",
+      "time_min": 6
+    },
+    {
+      "source": "Location H",
+      "target": "Location I",
+      "time_min": 14
+    },
+    {
+      "source": "Location I",
+      "target": "Location J",
+      "time_min": 4
+    },
+    {
+      "source": "Location J",
+      "target": "Location K",
+      "time_min": 19
+    },
+    {
+      "source": "Location K",
+      "target": "Location L",
+      "time_min": 9
+    },
+    {
+      "source": "Location L",
+      "target": "Location A",
+      "time_min": 4
+    },
+    {
+      "source": "Location B",
+      "target": "Location G",
+      "time_min": 16
+    },
+    {
+      "source": "Location B",
+      "target": "Location D",
+      "time_min": 5
+    },
+    {
+      "source": "Location I",
+      "target": "Location G",
+      "time_min": 4
+    },
+    {
+      "source": "Location J",
+      "target": "Location B",
+      "time_min": 10
+    },
+    {
+      "source": "Location J",
+      "target": "Location A",
+      "time_min": 15
+    },
+    {
+      "source": "Location A",
+      "target": "Location D",
+      "time_min": 4
+    },
+    {
+      "source": "Location I",
+      "target": "Location C",
+      "time_min": 12
+    },
+    {
+      "source": "Location G",
+      "target": "Location C",
+      "time_min": 20
+    },
+    {
+      "source": "Location E",
+      "target": "Location I",
+      "time_min": 8
+    },
+    {
+      "source": "Location D",
+      "target": "Location F",
+      "time_min": 6
+    }
+  ]
+}

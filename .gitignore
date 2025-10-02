@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+
+# Rider and VS Code
+.idea/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.dll
+*.exe
+
+# Others
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.pdb

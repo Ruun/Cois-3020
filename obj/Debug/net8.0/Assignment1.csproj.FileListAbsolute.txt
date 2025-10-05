@@ -13,3 +13,18 @@
 /Users/thelion/Downloads/COIS 3020/Assignment1/obj/Debug/net8.0/Assignment1.pdb
 /Users/thelion/Downloads/COIS 3020/Assignment1/obj/Debug/net8.0/Assignment1.genruntimeconfig.cache
 /Users/thelion/Downloads/COIS 3020/Assignment1/obj/Debug/net8.0/ref/Assignment1.dll
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\Assignment1.AssemblyInfoInputs.cache
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\Assignment1.AssemblyInfo.cs
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\Assignment1.sourcelink.json
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\Assignment1.dll
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\refint\Assignment1.dll
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\Assignment1.pdb
+C:\Users\hsaya\source\repos\Cois-3020\bin\Debug\net8.0\Assignment1.exe
+C:\Users\hsaya\source\repos\Cois-3020\bin\Debug\net8.0\Assignment1.deps.json
+C:\Users\hsaya\source\repos\Cois-3020\bin\Debug\net8.0\Assignment1.runtimeconfig.json
+C:\Users\hsaya\source\repos\Cois-3020\bin\Debug\net8.0\Assignment1.dll
+C:\Users\hsaya\source\repos\Cois-3020\bin\Debug\net8.0\Assignment1.pdb
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\Assignment1.genruntimeconfig.cache
+C:\Users\hsaya\source\repos\Cois-3020\obj\Debug\net8.0\ref\Assignment1.dll

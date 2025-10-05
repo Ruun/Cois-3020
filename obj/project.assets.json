@@ -8,24 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/thelion/.nuget/packages/": {}
+    "C:\\Users\\hsaya\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thelion/Downloads/COIS 3020/Assignment1/Assignment1.csproj",
+      "projectUniqueName": "C:\\Users\\hsaya\\source\\repos\\Cois-3020\\Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "/Users/thelion/Downloads/COIS 3020/Assignment1/Assignment1.csproj",
-      "packagesPath": "/Users/thelion/.nuget/packages/",
-      "outputPath": "/Users/thelion/Downloads/COIS 3020/Assignment1/obj/",
+      "projectPath": "C:\\Users\\hsaya\\source\\repos\\Cois-3020\\Assignment1.csproj",
+      "packagesPath": "C:\\Users\\hsaya\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hsaya\\source\\repos\\Cois-3020\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/thelion/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\hsaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,7 +50,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -64,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

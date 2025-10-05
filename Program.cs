@@ -44,7 +44,7 @@ class Program
                     ShowAllLocations(graph);
                     break;
                 case "4":
-                    Console.WriteLine("Thank you for using Route Finder! Goodbye!");
+                    Console.WriteLine("Thank you for using Route Finder! Goodbye!\n");
                     return;
                 default:
                     Console.WriteLine("❌ Invalid choice. Please enter 1-4.");

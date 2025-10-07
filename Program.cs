@@ -47,7 +47,7 @@ class Program
                     Console.WriteLine("Thank you for using Route Finder! Goodbye!\n");
                     return;
                 default:
-                    Console.WriteLine("❌ Invalid choice. Please enter 1-4.");
+                    Console.WriteLine("Invalid choice. Please enter 1-4.");
                     break;
             }
         }
@@ -118,21 +118,21 @@ class Program
         // Check if start location exists
         if (start == null)
         {
-            Console.WriteLine($"❌ Error: '{startInput}' not found. Please use full location name.");
+            Console.WriteLine($"Error: '{startInput}' not found. Please use full location name.");
             return false;
         }
 
         // Check if end location exists
         if (end == null)
         {
-            Console.WriteLine($"❌ Error: '{endInput}' not found. Please use full location name.");
+            Console.WriteLine($"Error: '{endInput}' not found. Please use full location name.");
             return false;
         }
 
         // Prevent unnecessary path calculation for same location
         if (start == end)
         {
-            Console.WriteLine("✅ You are already at the destination!");
+            Console.WriteLine("You are already at the destination!");
             return false;
         }
 
@@ -153,15 +153,15 @@ class Program
         // Check if a valid path was found
         if (result.path.Count == 0 || result.totalTime == -1)
         {
-            Console.WriteLine($"❌ No route found from {start} to {end}");
+            Console.WriteLine($"No route found from {start} to {end}");
         }
         else
         {
             // Display successful path finding results
-            Console.WriteLine($"\n✅ ROUTE FOUND!");
-            Console.WriteLine($"🛣️  Path: {string.Join(" → ", result.path)}");
-            Console.WriteLine($"⏱️  Total time: {result.totalTime} minutes");
-            Console.WriteLine($"🛑 Stops: {result.path.Count - 1}");
+            Console.WriteLine($"\nROUTE FOUND!");
+            Console.WriteLine($"Path: {string.Join(" -> ", result.path)}");
+            Console.WriteLine($"Total time: {result.totalTime} minutes");
+            Console.WriteLine($"Stops: {result.path.Count - 1}");
         }
     }
 
@@ -207,7 +207,7 @@ class Program
         // Display each location with a bullet point
         foreach (var location in locations)
         {
-            Console.WriteLine($"📍 {location}");
+            Console.WriteLine($" {location}");
         }
 
         Console.WriteLine($"Total: {locations.Count} locations");

@@ -38,7 +38,7 @@ public class JsonLoader
             graph.AddEdge(edge.source, edge.target, edge.time_min);
         }
 
-        Console.WriteLine("✅ JSON data loaded successfully!");
+        Console.WriteLine("JSON data loaded successfully!");
     }
 }
 

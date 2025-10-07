@@ -16,7 +16,7 @@ class Program
     static void Main()
     {
         // Display application header
-        Console.WriteLine("🚗 COIS 3020 - Location Route Finder");
+        Console.WriteLine("\nCOIS 3020 - Location Route Finder");
         Console.WriteLine("=====================================\n");
 
         // Initialize graph data structure
@@ -58,7 +58,7 @@ class Program
     /// </summary>
     static void DisplayMainMenu()
     {
-        Console.WriteLine("\n" + new string('=', 50));
+        Console.WriteLine("\n=====================================\n");
         Console.WriteLine("MAIN MENU");
         Console.WriteLine("1. Find shortest route between locations");
         Console.WriteLine("2. Show all locations and connections");
@@ -74,7 +74,7 @@ class Program
     /// <param name="graph">The graph containing location data</param>
     static void FindRoute(Graph graph)
     {
-        Console.WriteLine("\n--- FIND SHORTEST ROUTE ---");
+        Console.WriteLine("\nFIND SHORTEST ROUTE: ");
 
         // Get and display all available locations in alphabetical order
         var locations = graph.GetAllNodes().OrderBy(n => n).ToList();
@@ -184,8 +184,7 @@ class Program
         if (exactMatch != null)
             return exactMatch;
 
-        // Second attempt: case-insensitive partial match
-        // Allows inputs like "A" to match "Location A"
+        // Second attempt: case-insensitive partial match4
         var partialMatch = locations.FirstOrDefault(l =>
             l.EndsWith(input, StringComparison.OrdinalIgnoreCase));
         if (partialMatch != null)
@@ -202,7 +201,7 @@ class Program
     static void ShowAllLocations(Graph graph)
     {
         var locations = graph.GetAllNodes().OrderBy(n => n).ToList();
-        Console.WriteLine("\n--- ALL LOCATIONS ---");
+        Console.WriteLine("\nALL LOCATIONS: ");
 
         // Display each location with a bullet point
         foreach (var location in locations)

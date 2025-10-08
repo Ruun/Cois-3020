@@ -1,6 +1,4 @@
 
-
-
 /// <summary>
 /// Represents a location node in the graph
 /// Each node contains a name and a list of outgoing edges to other nodes

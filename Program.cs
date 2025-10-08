@@ -1,7 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
-
 /// <summary>
 /// Main program class for the COIS 3020 Assignment 1 - Location Route Finder
 /// Provides a user interface for interacting with the graph data structure
@@ -60,7 +58,7 @@ class Program
     {
         Console.WriteLine("\n=====================================\n");
         Console.WriteLine("MAIN MENU");
-        Console.WriteLine("1. Find shortest route between locations");
+        Console.WriteLine("1. Find shortest path between locations");
         Console.WriteLine("2. Show all locations and connections");
         Console.WriteLine("3. List all locations");
         Console.WriteLine("4. Exit");
@@ -211,4 +209,5 @@ class Program
 
         Console.WriteLine($"Total: {locations.Count} locations");
     }
+
 }

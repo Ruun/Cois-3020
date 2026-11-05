@@ -1,6 +1,4 @@
 
-
-
 /// <summary>
 /// Represents a location node in the graph
 /// Each node contains a name and a list of outgoing edges to other nodes
@@ -117,7 +115,7 @@ public class Graph
     /// </summary>
     public void PrintGraph()
     {
-        Console.WriteLine("\n=== GRAPH STRUCTURE ===");
+        Console.WriteLine("\nGRAPH STRUCTURE: \n");
 
         // Display nodes in alphabetical order for consistency
         foreach (var node in nodes.Values.OrderBy(n => n.Name))
